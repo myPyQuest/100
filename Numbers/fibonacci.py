@@ -1,7 +1,6 @@
 def fib(n):
 
     assert n > 0
-
     series = [1]
 
     while len(series) < n:
@@ -10,6 +9,15 @@ def fib(n):
         else:
             series.append(series[-1] + series[-2])
 
-
     for i in range(len(series)):
-        pass
+        series[i] = str(series[i])
+
+    return ', '.join(series)
+
+
+def main():
+    print(fib(int(input('How many nums do you need? '))))
+
+
+if __name__ == '__main__':
+    main()
