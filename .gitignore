@@ -55,3 +55,6 @@ target/
 # sublime_text
 100.sublime-workspace
 100.sublime-project
+
+# idea
+.idea/
