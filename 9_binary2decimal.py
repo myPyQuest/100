@@ -4,7 +4,13 @@
 
 
 def bin2dec(num):
-    pass
+    rev = str(num)[::-1]
+    n = 0
+
+    for i in range(0, len(rev)):
+        n += int(rev[i]) * (2 ** i)
+
+    return n
 
 
 def dec2bin(num):
@@ -22,4 +28,5 @@ def dec2bin(num):
 
 
 
-print(dec2bin(8))
+# print(dec2bin(8))
+print(bin2dec(1000))
