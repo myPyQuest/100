@@ -19,14 +19,14 @@ def dec2bin(num):
     while num > 0:
         binary += str(num % 2)
         num //= 2
+    binary += 'b0'
 
     return binary[::-1]
 
 
+number = int(input('> '))
 
-
-
-
-
-# print(dec2bin(8))
-print(bin2dec(1000))
+if str(number).startswith('0b'):
+    print(bin2dec(number))
+else:
+    print(dec2bin(number))
