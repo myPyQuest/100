@@ -94,7 +94,13 @@ if type_of_value == '1' or type_of_value == 'temp':
 
 
 elif type_of_value == '2' or type_of_value == 'currency':
-    pass
+    print("""
+1. US
+2. GB
+3. EU
+4. HR
+""")
+
 
 # elif type_of_value == '3' or type_of_value == 'volume':
 #     pass
