@@ -4,6 +4,7 @@
 
 
 def bin2dec(num):
+    num = str(num)[2:]
     rev = str(num)[::-1]
     n = 0
 
@@ -24,9 +25,9 @@ def dec2bin(num):
     return binary[::-1]
 
 
-number = int(input('> '))
+number = input('> ')
 
-if str(number).startswith('0b'):
+if number[:2] == '0b':
     print(bin2dec(number))
 else:
-    print(dec2bin(number))
+    print(dec2bin(int(number)))
