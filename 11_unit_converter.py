@@ -35,6 +35,14 @@ def temp_kf(begin, t):
         t_k = ((t - 32) * 5 / 9) + 273.15
         return t_k
 
+
+def exchange_us_eu(start, cur):
+    pass
+
+
+# def exchange_...LONG LONG SUCKS
+
+
 print('''
 1. temp
 2. currency
@@ -96,11 +104,23 @@ if type_of_value == '1' or type_of_value == 'temp':
 elif type_of_value == '2' or type_of_value == 'currency':
     print("""
 1. US
-2. GB
-3. EU
+2. EU
+3. RU
 4. HR
 """)
 
+    cur_in = input("What's currency you want to convert? > ").lower()
+    cur_out = input("In what currency? > ").lower()
+
+    if cur_in == '1' or cur_in == 'us':
+        cur = 'us'
+
+    elif cur_in == '2' or cur_in == 'eu':
+        cur = 'eu'
+    elif cur_in == '3' or cur_in == 'ru':
+        cur = 'ru'
+    elif cur_in == '4' or cur_in == 'hr':
+        cur = 'hr'
 
 # elif type_of_value == '3' or type_of_value == 'volume':
 #     pass
