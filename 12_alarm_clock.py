@@ -9,6 +9,7 @@ import time
 def sound():
     for i in range(2):  # number of repeats
         for j in range(9):  # number of beeps
+            # os.system('zsh')
             os.system('beep')  # sound
         time.sleep(2)  # pause between beeps
 
@@ -21,3 +22,4 @@ def alarm(n):
     sound()
 
 
+alarm(10)
