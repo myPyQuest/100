@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
-				"str",
-				"string	(global, instance)"
+				"el",
+				"else	(keyword, instance)"
 			],
 			[
 				"in",
-				"in	(keyword, instance)"
+				"input	(builtin, function)"
+			],
+			[
+				"str",
+				"string	(global, instance)"
 			],
 			[
 				"ma",
@@ -31,6 +35,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "projects.md",
+			"settings":
+			{
+				"buffer_size": 20775,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -88,6 +100,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/bogdan/Dropbox/100/.gitignore",
+		"/C/Users/bogdan/Dropbox/100/Text/countWordsInStr.py",
 		"/C/Users/bogdan/Dropbox/100/100.sublime-workspace",
 		"/C/Users/bogdan/Dropbox/100/projects.md",
 		"/C/Users/bogdan/Dropbox/100/Text/countVowels.py",
@@ -154,8 +168,35 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "projects.md",
+					"settings":
+					{
+						"buffer_size": 20775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7088,
+								7088
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5039.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -210,7 +251,7 @@
 		[
 			[
 				"",
-				"projects.md"
+				".gitignore"
 			]
 		],
 		"width": 0.0
