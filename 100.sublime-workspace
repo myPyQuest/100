@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"str",
+				"string	(global, instance)"
+			],
+			[
 				"in",
 				"in	(keyword, instance)"
 			],
@@ -27,14 +31,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "projects.md",
-			"settings":
-			{
-				"buffer_size": 20767,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -83,22 +79,25 @@
 	},
 	"distraction_free":
 	{
-		"menu_visible": true,
+		"menu_visible": false,
 		"show_minimap": false,
 		"show_open_files": false,
-		"show_tabs": false,
+		"show_tabs": true,
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
 	"file_history":
 	[
+		"/C/Users/bogdan/Dropbox/100/100.sublime-workspace",
+		"/C/Users/bogdan/Dropbox/100/projects.md",
+		"/C/Users/bogdan/Dropbox/100/Text/countVowels.py",
+		"/C/Users/bogdan/Dropbox/100/Text/fizzBuzz.py",
 		"/C/Users/bogdan/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/bogdan/.gitconfig",
 		"/C/Users/bogdan/Dropbox/100/.git/COMMIT_EDITMSG",
 		"/C/Users/bogdan/Dropbox/100/Text/reverseString.py",
 		"/C/Users/bogdan/Dropbox/100/piUpToNthD.py",
 		"/C/Users/bogdan/Dropbox/100/1.py",
-		"/C/Users/bogdan/Dropbox/100/projects.md",
 		"/C/Users/bogdan/Dropbox/PythonPRJ/1/piUpToNthD.py",
 		"/C/Users/bogdan/Dropbox/README.md",
 		"/C/Users/bogdan/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
@@ -155,35 +154,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "projects.md",
-					"settings":
-					{
-						"buffer_size": 20767,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7243,
-								7243
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1980.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
