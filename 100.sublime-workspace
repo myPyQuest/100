@@ -1,0 +1,260 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"in	(keyword, instance)"
+			],
+			[
+				"ma",
+				"math"
+			],
+			[
+				"di",
+				"pi_digits"
+			],
+			[
+				"cal",
+				"calcPi	(global, function)"
+			],
+			[
+				"prin",
+				"print	(keyword, instance)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "projects.md",
+			"settings":
+			{
+				"buffer_size": 20767,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"bindi",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"packaup",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/bogdan/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/bogdan/.gitconfig",
+		"/C/Users/bogdan/Dropbox/100/.git/COMMIT_EDITMSG",
+		"/C/Users/bogdan/Dropbox/100/Text/reverseString.py",
+		"/C/Users/bogdan/Dropbox/100/piUpToNthD.py",
+		"/C/Users/bogdan/Dropbox/100/1.py",
+		"/C/Users/bogdan/Dropbox/100/projects.md",
+		"/C/Users/bogdan/Dropbox/PythonPRJ/1/piUpToNthD.py",
+		"/C/Users/bogdan/Dropbox/README.md",
+		"/C/Users/bogdan/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/bogdan/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/bogdan/AppData/Roaming/Sublime Text 2/Packages/SublimeRope/SublimeRope.sublime-settings",
+		"/C/Users/bogdan/AppData/Roaming/Sublime Text 2/Packages/SublimeRope/Default (Windows).sublime-keymap",
+		"/C/Users/bogdan/AppData/Roaming/Sublime Text 2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/C/Users/bogdan/Desktop/Projects-master/README.md",
+		"/C/Users/bogdan/Dropbox/Новый текстовый документ.txt",
+		"/C/Users/bogdan/Dropbox/b4johndoe.yandex.ru.txt",
+		"/C/Users/bogdan/Dropbox/мой_файл.txt",
+		"/C/Users/bogdan/Desktop/py_projects.md",
+		"/C/Users/bogdan/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/C/Users/bogdan/AppData/Roaming/Sublime Text 2/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/bogdan/PythonPRJ/hello.py",
+		"/C/Users/bogdan/PythonPRJ/index.py",
+		"/C/Users/bogdan/AppData/Roaming/Sublime Text 2/Packages/AdvancedNewFile/Default (Windows).sublime-keymap",
+		"/C/Users/bogdan/AppData/Roaming/Sublime Text 2/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/C/Users/bogdan/AppData/Roaming/Sublime Text 2/Packages/SublimeRope/README.markdown",
+		"/C/Users/bogdan/AppData/Roaming/Sublime Text 2/Packages/AdvancedNewFile/README.md"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"get",
+			"langua"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "projects.md",
+					"settings":
+					{
+						"buffer_size": 20767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7243,
+								7243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1980.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.markdown":
+	{
+		"height": 100.0
+	},
+	"output.rope_python_documentation":
+	{
+		"height": 249.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"projects.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
