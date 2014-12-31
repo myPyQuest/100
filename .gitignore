@@ -52,3 +52,5 @@ docs/_build/
 
 # PyBuilder
 target/
+# sublime_text
+100.sublime*
