@@ -13,18 +13,21 @@ def fact(n):
         return n * fact(n - 1)
 
 
-def fact_by_loop(n):
-    multi = 1
-    if n == 0 or n == 1:
+def factoloop(n):
+    result = 1
+    if n < 2:
         return 1
     else:
-        for i in range(n):
-            multi *= i
-        return multi
+        while n > 1:
+            result *= n
+            n -= 1
+        return result
 
 num = int(input("Enter a number: "))
 
 if num < 0 or num >= 1000:
     print("Error; num must be a positive or less than 1000")
     sys.exit()
-print(num, '=>', fact_by_loop(num))
+
+print('fact', num, '=>', fact(num))
+print('factoloop', num, '=>', factoloop(num))
