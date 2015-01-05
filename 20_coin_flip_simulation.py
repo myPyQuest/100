@@ -6,22 +6,23 @@
 import random
 
 
-def coin_flip():
+def coin_flip(n):
+    n1 = n
     head, tail, yes, result = 0, 0, True, None
-    while yes:
+    while n:
         result = random.randint(0, 1)
         print(result)
         if result == 0:
             head += 1
-            print('орел =', head)
+            # print('орел =', head)
         else:
             tail += 1
-            print('решка =', tail)
-        y = input('Again? (Y/N) ')
-        if y.lower() is 'n':
-            yes = False
-        else:
-            yes = True
+            # print('решка =', tail)
+        n -= 1
+    print('Бросков:', n1, 'раз')
+    print('Орел выпал', head, 'раз')
+    print('Решка выпала', tail, 'раз')
 
 
-coin_flip()
+n = int(input('Сколько раз будем бросать монету?: '))
+coin_flip(n)
