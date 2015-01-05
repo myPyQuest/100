@@ -43,6 +43,25 @@ def merge_sort(lst):
     ret = merge(left, right)
     return ret
 
-a = [1, 2, 3, 4, 5, 0, 9, 8, 7, 6]
-draw_array(a)
-draw_array(merge_sort(a))
+
+""" bubble sorted array
+"""
+
+
+def bubble(bad_list):
+    length = len(bad_list) - 1
+    sort_ed = False  # Haven't started sorting yet
+
+    while not sort_ed:
+        sort_ed = True  # Assume the list is now sorted
+        for i in range(length):
+            if bad_list[i] > bad_list[i + 1]:
+                sort_ed = False
+                bad_list[i], bad_list[i+1] = bad_list[i+1], bad_list[i]
+
+
+a = [1, 2, 3, 8, 7, 6, 4, 5, 0]
+
+print(a)
+bubble(a)
+print(a)
