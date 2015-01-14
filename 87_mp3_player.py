@@ -2,16 +2,32 @@
     A simple program for playing your favorite music files. Add features you though are missing from
     your favorite music player.
 """
-from tkinter import *
-import tkinter.filedialog as tk
-import tkinter.messagebox as tk2
-# import pygame
+from mplayer import Player, CmdPrefix
 
+# set default prefix for all Player instances
+Player.cmd_prefix = CmdPrefix.PAUSING_KEEP
 
-# class Application(Frame):
-#
-#     def __init__(self, master):
-#         super(Application, self).__init__(master)
-#
-#         #self.create_widgets()
-#         self.playlistbox =
+# since autospawn is True by default, no need to call player.spawn() manually
+player = Player()
+
+# play a file
+player.loadfile('file.mp3')
+
+# pause playback
+player.pause()
+
+# get title from metadata
+metadata = player.metadata or {}
+print(metadata.get('Title', ''))
+
+# print the filename
+print(player.filename)
+
+# seek +5 seconds
+player.time_pos += 5
+
+# set to fullscreen
+player.fullscreen = True
+
+# terminate MPlayer
+player.quit()
